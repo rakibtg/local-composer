@@ -1,0 +1,10 @@
+{
+  "name": "zincphp/core",
+  "description": "A package under development",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "ZincPHP\\Core\\": "src"
+    }
+  }
+}

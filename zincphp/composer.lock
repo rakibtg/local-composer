@@ -1,0 +1,40 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "abb91651ed185d12edd764b0991f51b5",
+    "packages": [
+        {
+            "name": "zincphp/core",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../core",
+                "reference": "f29e55346ed540ab3a313a1e78c831680a0af326",
+                "shasum": null
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ZincPHP\\Core\\": "src"
+                }
+            },
+            "description": "A package under development",
+            "transport-options": {
+                "symlink": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "zincphp/core": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
