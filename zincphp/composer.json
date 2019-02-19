@@ -1,15 +1,22 @@
 {
   "name": "rakibtg/zincphp",
-  "repositories": {
-    "dev-package": {
+
+  "repositories": [
+    {
       "type": "path",
-      "url": "../core",
-      "options": {
-        "symlink": true
-      }
+      "url": "../core"
+    },
+    {
+      "type": "path",
+      "url": "../cli"
     }
-  },
+  ],
+
   "require": {
     "zincphp/core": "@dev"
+  },
+
+  "require-dev": {
+    "cli/core": "@dev"
   }
 }
