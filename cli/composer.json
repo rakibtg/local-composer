@@ -1,0 +1,10 @@
+{
+  "name": "cli/core",
+  "description": "A package under development",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Cli\\Core\\": "src"
+    }
+  }
+}
